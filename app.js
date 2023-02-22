@@ -31,7 +31,7 @@ function cameraStart() {
 		.getUserMedia(constraints)
 		.then(function(stream) {
 			currentStream = stream;
-			cameraDevices.srcObject = stream;
+			cameraDevice.srcObject = stream;
 		})
 		.catch(function(error) {
 			console.log("Something wrong is happening!", error);
