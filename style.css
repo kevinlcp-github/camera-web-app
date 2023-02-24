@@ -4,6 +4,16 @@ html, body{
 }
 
 /*
+Style the element with id="camera", "camera-view", "camera-device", "photo-display"
+*/
+#camera, #camera-view, #camera-device, #photo-display{
+    position: fixed; /* Position of element is relative to the viewport */
+    object-fit: contain; /* The content is scaled to maintain its aspect ratio while fitting within the element's content box */
+    height: 100%;
+    width: 100%;
+}
+
+/*
 Style the element with id="camera-view", "camera-device", "photo-display"
 */
 #camera-view, #camera-device, #photo-display{
