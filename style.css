@@ -17,7 +17,7 @@ Style the element with id="camera", "camera-view", "camera-device", "photo-displ
 Style the element with id="camera-view", "camera-device", "photo-display"
 */
 #camera-view, #camera-device, #photo-display{
-    transform: scaleX(-1);
+    transform: scaleX(1);
 }
 
 /*
